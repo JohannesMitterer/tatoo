@@ -50,37 +50,43 @@ The functions generally summarize parameters in pandas.DataFrames and export the
 #### Geographical input data
 
 ##### path_gdb_in
-path of input GDB, where geographical input data is expected
-(e.g., r'PATH\input.gdb' + '\\')
+path of input GDB, where geographical input data is expected _(e.g., r'PATH\input.gdb' + '\\')_
 
 ##### path_dem_hr
-path of high-resolution DEM with burned river network
-(e.g., path_gdb_in + 'dem_hr')
+path of high-resolution DEM with burned river network _(e.g., path_gdb_in + 'dem_hr')_
 
 ##### path_fnw
-path of flow network polyline feature class
-(e.g., path_gdb_in + 'fnw')
+path of flow network polyline feature class _(e.g., path_gdb_in + 'fnw')_
 
 ##### path_lu
-path of polygon feature class of land use and sealing percentage
-(e.g., path_gdb_in + 'landuse')
+path of polygon feature class of land use and sealing percentage _(e.g., path_gdb_in + 'landuse')_
 
 ##### path_soil
-path of polygon feature class of soil data
-(e.g., path_gdb_in + 'soil')
+path of polygon feature class of soil data _(e.g., path_gdb_in + 'soil')_
 
 #### Geographical output data
-* path_gdb_out       = r'PATH\output.gdb' + '\\'  geodatabase where outputs are stored
-* name_ws_s          = 'ws_s'                     model domain polygon feature class
-* name_tgb_s         = 'tgb_s'                    model element polygon feature class
-* name_tgb_par_p     = 'tgb_par_p'                model element point feature class incl. raster parameters
-* name_tgb_par_tab   = 'tgb_par_tab'              model element table with output file parameters
-* name_hru_c         = 'hru_c'                    polygon feature class of HRUs
-* name_utgb_par_tab  = 'utgb_par_tab'             HRU table with output file parameters
-* name_csl           = 'csl'                      cross section polyline feature class
-* name_bcwsl         = 'bcwsl'                    bankful channel water surface line
-* name_profile_par   = 'profile_par'              parameter table for bankful discharge
-* name_ch_fit_coords = 'ch_fit_coords'            coordinate table for bankful discharge line
+##### path_gdb_out
+geodatabase where outputs are stored _(e.g., r'PATH\output.gdb' + '\\'  
+##### name_ws_s
+model domain polygon feature class _(e.g., 'ws_s')_
+##### name_tgb_s
+model element polygon feature class _(e.g., 'tgb_s')_
+##### name_tgb_par_p
+model element point feature class incl. raster parameters _(e.g., 'tgb_par_p')_
+##### name_tgb_par_tab
+model element table with output file parameters _(e.g., 'tgb_par_tab')_
+##### name_hru_c
+polygon feature class of HRUs _(e.g., 'hru_c')_
+##### name_utgb_par_tab
+HRU table with output file parameters _(e.g., 'utgb_par_tab')_
+##### name_csl
+cross section polyline feature class _(e.g., 'csl')_
+##### name_bcwsl
+bankful channel water surface line _(e.g., 'bcwsl')_
+##### name_profile_par
+parameter table for bankful discharge _(e.g., 'profile_par')_
+##### name_ch_fit_coords
+coordinate table for bankful discharge line _(e.g., 'ch_fit_coords')_
 #### Output path and file names
 path_files_out     = r'PATH\model_files' + '\\' folder where files are stored
 name_tgbdat        = 'tgb.dat'                  LARSIM file for model element parameters
