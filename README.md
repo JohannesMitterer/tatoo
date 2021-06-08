@@ -1,4 +1,4 @@
-# tatoo
+# TATOO
 Python Topographic Analysis Tool Library for semi-automated Setup of High-resolution Water Balance Models
 
 ## 1. What the project does
