@@ -4,7 +4,10 @@
 **1. What the project does**
 
 TATOO offers Python 3.6 algorithms to automate the processes of water balance model parameter delineation. 
-There are three packages (_tatoo_subcatchment.py_, _tatoo_raster.py_, and _tatoo_common.py_). The packages _tatoo_subcatchment.py and _tatoo_raster.py_ use functions from the package _tatoo_common.py_. Additionally, there are two example workflows (_tatoo_subcatchment_example.py_ and _tatoo_raster_example.py_), which use functions of the three function packages. The dependencies between these five files are summarized ![here](https://user-images.githubusercontent.com/85393122/121018779-1c181580-c79f-11eb-98d2-eec9cc303ffc.png).
+There are three packages (_tatoo_subcatchment.py_, _tatoo_raster.py_, and _tatoo_common.py_). The packages _tatoo_subcatchment.py and _tatoo_raster.py_ use functions from the package _tatoo_common.py_. Additionally, there are two example workflows (_tatoo_subcatchment_example.py_ and _tatoo_raster_example.py_), which use functions of the three function packages. The dependencies between these five files are summarized in this graph:
+
+![here](https://user-images.githubusercontent.com/85393122/121018779-1c181580-c79f-11eb-98d2-eec9cc303ffc.png)
+
 The example workflows apply all functionalities for the _Large Area Runoff Simulation Model (LARSIM)_ and explain all user parameters shortly. The model documentation can be found ![here](https://www.larsim.info/en/the-model/). Most functionalities are  applicable for many integrated hydrological models using same or similar parameters, only few are particularly for LARSIM (e.g., the model file creation functions).
 
 **2. The features and benefits of the project**
@@ -23,9 +26,10 @@ The functions presented here are constructed for a model using Kirpich (1940) as
 **Channel and foreland cross-section geometries**
 If the user would like more sophisticated data, than it is possible to either adapt automatically created cross sections (raster) or use averaged cross sections (subcatchments) as model input. While the inputs for the raster model are given then in a sepaarate format, a triple-trapezoid profile is optimized for subcatchment models.
 
-The functionalities are briefly described within ![this detailled flow chart of TATOO functions](https://user-images.githubusercontent.com/85393122/121018538-d8251080-c79e-11eb-8a3d-deeeb824be18.png) and this publication:
-Mitterer, J. A. (2021): _"TATOO – Python Topographic Analysis Tool Library for semi-automated Setup of High-resolution Water Balance Models"_. In: Environmental Modelling and Software, ## (##) pp. ###-###.
-Additionally, every function has its own detailled documentation within the .py files.
+The functionalities are briefly described within the following detailled flow chart of TATOO functions and this publication:
+Mitterer, J. A. (2021): _"TATOO – Python Topographic Analysis Tool Library for semi-automated Setup of High-resolution Water Balance Models"_. In: Environmental Modelling and Software, ## (##) pp. ###-###. Additionally, every function has its own detailled documentation within the .py files.
+
+![flowchart](https://user-images.githubusercontent.com/85393122/121018538-d8251080-c79e-11eb-8a3d-deeeb824be18.png) 
 
 **3. How users can get started with the project**
 
