@@ -48,23 +48,23 @@ The functions generally summarize parameters in pandas.DataFrames and export the
 
 ### Paths
 #### Geographical input data
-path_gdb_in        = r'PATH\input.gdb' + '\\'   path of input GDB
-path_dem_hr        = path_gdb_in + 'dem_hr'     high resolution DEM (with burned river network)
-path_fnw           = path_gdb_in + 'fnw'        flow network polyline feature class
-path_lu            = path_gdb_in + 'landuse'    polygon feature class of land use and sealing percentage
-path_soil          = path_gdb_in + 'soil'       polygon feature class of soil data
+* path_gdb_in        = r'PATH\input.gdb' + '\\'   path of input GDB
+* path_dem_hr        = path_gdb_in + 'dem_hr'     high resolution DEM (with burned river network)
+* path_fnw           = path_gdb_in + 'fnw'        flow network polyline feature class
+* path_lu            = path_gdb_in + 'landuse'    polygon feature class of land use and sealing percentage
+* path_soil          = path_gdb_in + 'soil'       polygon feature class of soil data
 #### Geographical output data
-path_gdb_out       = r'PATH\output.gdb' + '\\'  geodatabase where outputs are stored
-name_ws_s          = 'ws_s'                     model domain polygon feature class
-name_tgb_s         = 'tgb_s'                    model element polygon feature class
-name_tgb_par_p     = 'tgb_par_p'                model element point feature class incl. raster parameters
-name_tgb_par_tab   = 'tgb_par_tab'              model element table with output file parameters
-name_hru_c         = 'hru_c'                    polygon feature class of HRUs
-name_utgb_par_tab  = 'utgb_par_tab'             HRU table with output file parameters
-name_csl           = 'csl'                      cross section polyline feature class
-name_bcwsl         = 'bcwsl'                    bankful channel water surface line
-name_profile_par   = 'profile_par'              parameter table for bankful discharge
-name_ch_fit_coords = 'ch_fit_coords'            coordinate table for bankful discharge line
+* path_gdb_out       = r'PATH\output.gdb' + '\\'  geodatabase where outputs are stored
+* name_ws_s          = 'ws_s'                     model domain polygon feature class
+* name_tgb_s         = 'tgb_s'                    model element polygon feature class
+* name_tgb_par_p     = 'tgb_par_p'                model element point feature class incl. raster parameters
+* name_tgb_par_tab   = 'tgb_par_tab'              model element table with output file parameters
+* name_hru_c         = 'hru_c'                    polygon feature class of HRUs
+* name_utgb_par_tab  = 'utgb_par_tab'             HRU table with output file parameters
+* name_csl           = 'csl'                      cross section polyline feature class
+* name_bcwsl         = 'bcwsl'                    bankful channel water surface line
+* name_profile_par   = 'profile_par'              parameter table for bankful discharge
+* name_ch_fit_coords = 'ch_fit_coords'            coordinate table for bankful discharge line
 #### Output path and file names
 path_files_out     = r'PATH\model_files' + '\\' folder where files are stored
 name_tgbdat        = 'tgb.dat'                  LARSIM file for model element parameters
