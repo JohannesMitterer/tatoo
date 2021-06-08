@@ -29,7 +29,7 @@ If the user would like more sophisticated data, than it is possible to either ad
 The functionalities are briefly described within the following detailled flow chart of TATOO functions and this publication:
 Mitterer, J. A. (2021): _"TATOO – Python Topographic Analysis Tool Library for semi-automated Setup of High-resolution Water Balance Models"_. In: Environmental Modelling and Software, ## (##) pp. ###-###. Additionally, every function has its own detailled documentation within the .py files.
 
-![flowchart](https://user-images.githubusercontent.com/85393122/121018538-d8251080-c79e-11eb-8a3d-deeeb824be18.png) 
+![tatoo flowchart](https://user-images.githubusercontent.com/85393122/121212460-ab93f600-c87d-11eb-8f0b-1c58f082f951.png)
 
 **3. How users can get started with the project**
 
