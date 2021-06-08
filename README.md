@@ -10,7 +10,7 @@ There are three packages (_tatoo_subcatchment.py_, _tatoo_raster.py_, and _tatoo
 
 The example workflows apply all functionalities for the _Large Area Runoff Simulation Model (LARSIM)_ and explain all user parameters shortly. The model documentation can be found ![here](https://www.larsim.info/en/the-model/). Most functionalities are  applicable for many integrated hydrological models using same or similar parameters, only few are particularly for LARSIM (e.g., the model file creation functions).
 
-**2. The features and benefits of the project**
+## 2. The features and benefits of the project
 
 The features depend on the model creation strategy (subcatchment oder raster structure) as well as on the degree of detail the user wants to implement in the model. Basically, there are three sections to mention:
 * raster- or subcatchment-based model elements and networks (including subcatchment size optimization), 
@@ -18,15 +18,15 @@ The features depend on the model creation strategy (subcatchment oder raster str
 * channel and foreland cross-section geometries (triple-trapezoid-profiles or level-area-perimeter-functions). 
 While the first and the second are obligatory, the latter is voluntary. 
 
-**Raster- or subcatchment-based model elements and networks**
+### Raster- or subcatchment-based model elements and networks
 
 Every integrated hydrological model needs spatial model elements, which may be raster-, or subcatchment-based. For the creation of raster models, the user only determines the size of the grid cells and the functions will create the necessary model elements and the network dependencies indipendently. For subcatchment models, there is an optimizer included, that tries to fit the subcatchment sizes according to the user-selected size. In both has the user possibilities to correct the resulting elements and structures within GIS.
 
-**Runoff generation, concentration and routing parameters**
+### Runoff generation, concentration and routing parameters
 
 The functions presented here are constructed for a model using Kirpich (1940) as runoff concentration time estimation and a modified ![Williams (1969)](https://doi.org/10.13031/2013.38772) approach applying Gaukler-Manning-Strickler formula for channel routing within a triple (recommended) channel cross section profile. The latter is estimated standardarlly using channel estimation formula such as ![Allen et al. (1994)](https://doi.org/10.1111/j.1752-1688.1994.tb03321.x).
 
-**Channel and foreland cross-section geometries**
+### Channel and foreland cross-section geometries
 
 If the user would like more sophisticated data, than it is possible to either adapt automatically created cross sections (raster) or use averaged cross sections (subcatchments) as model input. While the inputs for the raster model are given then in a sepaarate format, a triple-trapezoid profile is optimized for subcatchment models.
 
@@ -35,9 +35,9 @@ Mitterer, J. A. (2021): _"TATOO – Python Topographic Analysis Tool Library for
 
 ![tatoo flowchart](https://user-images.githubusercontent.com/85393122/121212460-ab93f600-c87d-11eb-8f0b-1c58f082f951.png)
 
-**3. How users can get started with the project**
+## 3. How users can get started with the project
 
-**System requirements**
+### System requirements
 
 The functions of TATOO are based on Python-3.6 and require a bunch of standard Python packages:
 * os
@@ -53,11 +53,11 @@ The functions of TATOO are based on Python-3.6 and require a bunch of standard P
 * scipy (interpolate.griddata, integrate.cumtrapz, signal.find_peaks) 1.5.0
 Before using the functions of TATOO, the user has install the named packages correctly. Please make sure that the interact correctly with your ArcPy environment. We propose to use Anaconda as environment management portal. 
 
-**ArcPy requirements**
+### ArcPy requirements
 
 The tools need ESRI's Python package ArcPy in Python 3 language, which is included within ArcGIS Pro. The tools are indipendent of ArcGIS except for the ArcPy environment, although the user interactions were tested using ArcGIS Pro version 2.5. 
 
-**Installation**
+### Installation
 
 Besides the packages, there is no special installation necessary. As in the _example workflows_, the user only has to add the path, where the package files (_tatoo_subcatchment.py_, _tatoo_raster.py_, and _tatoo_common.py_) are located. The command is:
 sys.path.append((r'PATH')) # replace PATH with your folder path
@@ -74,7 +74,7 @@ For the first start with TATOO, we recommend to build on the existing workflows 
 * **detailled cross section information** (raster package only)
 Users may now apply the functions step-by-step or adapt them dependent on their needs. A complete run of the example workflow skripts will result in a complete model structure for LARSIM without any user changes.
 
-**Interaction with ArcGIS Pro**
+### Interaction with ArcGIS Pro
 According to the workflows, we recommend to set up two personal geodatabases (GDB) as working folders for inputs and outputs. The inputs shall contain five files:
 * high-resolution digital elevation model (obligatory)
 * land use polygon feature class containing all identifier numbers for the project (obligatory)
@@ -83,7 +83,7 @@ According to the workflows, we recommend to set up two personal geodatabases (GD
 * impervious share polygon feature class with float values (optional)
 The functions generally summarize parameters in pandas.DataFrames and export these to ArcPy.FeatureClasses, ArcPy.Tables or ArcPy.Rasters if required. User can manually change these ONLY according to the outlines within the workflow files if they are used as inputs for other functions.
 
-**4. Where users can get help with your project**
+## 4. Where users can get help with your project
 
 There are three possibilities to take part in this project:
 1. apply the functions for LARSIM (or partly for other models)
@@ -93,12 +93,12 @@ You are invited to join with any of the listed participation methods.
 
 The project was developed by Johannes Mitterer at the Technical University of Munich (TUM), ![Chair for Hydrology and River Basin Management](https://www.bgu.tum.de/en/hydrologie/home/) in 2021. Contact: johannes.mitterer@tum.de
 
-**5. Who maintains and contributes to the project**
+## 5. Who maintains and contributes to the project
 
 The project is recently published. Contributors:
 * Johannes Mitterer (Technical University of Munich)
 
-**Credentials**
+## Credentials
 
 Input data provided for the show cases is from the following agencies:
 * Bayerisches Landesamt für Umwelt (LfU, Bavarian Environmental Agency): Soil, land use, and impervious share data
