@@ -49,28 +49,23 @@ The functions generally summarize parameters in pandas.DataFrames and export the
 ### Paths
 #### Geographical input data
 
-_path_gdb_in_
-
+##### path_gdb_in
 path of input GDB, where geographical input data is expected
 (e.g., r'PATH\input.gdb' + '\\')
 
-_path_dem_hr_
-
+##### path_dem_hr
 path of high-resolution DEM with burned river network
 (e.g., path_gdb_in + 'dem_hr')
 
-_path_fnw_
-
+##### path_fnw
 path of flow network polyline feature class
 (e.g., path_gdb_in + 'fnw')
 
-_path_lu_
-
+##### path_lu
 path of polygon feature class of land use and sealing percentage
 (e.g., path_gdb_in + 'landuse')
 
-_path_soil_
-
+##### path_soil
 path of polygon feature class of soil data
 (e.g., path_gdb_in + 'soil')
 
