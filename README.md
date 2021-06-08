@@ -62,8 +62,7 @@ The tools need ESRI's Python package ArcPy in Python 3 language, which is includ
 Besides the packages, there is no special installation necessary. As in the _example workflows_, the user only has to add the path, where the package files (_tatoo_subcatchment.py_, _tatoo_raster.py_, and _tatoo_common.py_) are located. The command is:
 sys.path.append((r'PATH')) # replace PATH with your folder path
 
-**First Application**
-
+### First Application
 For the first start with TATOO, we recommend to build on the existing workflows (_tatoo_subcatchment_example.py_ and _tatoo_raster_example.py_), as there all parameters and potential functions are used. Then the user can have a look into the output data structure and decide if modified (or even new) functions are necessary to fit the individual model requirements. Both examples have the same structure:
 * **header**: description of functionalities, authors and rights
 * **import**: used Python packages
@@ -84,7 +83,6 @@ According to the workflows, we recommend to set up two personal geodatabases (GD
 The functions generally summarize parameters in pandas.DataFrames and export these to ArcPy.FeatureClasses, ArcPy.Tables or ArcPy.Rasters if required. User can manually change these ONLY according to the outlines within the workflow files if they are used as inputs for other functions.
 
 ## 4. Where users can get help with your project
-
 There are three possibilities to take part in this project:
 1. apply the functions for LARSIM (or partly for other models)
 2. raising issues about bugs (or missing functionalities) in GitHub 
