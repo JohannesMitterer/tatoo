@@ -47,8 +47,10 @@ Besides the packages, there is no special installation necessary. As described i
 sys.path.append((r'PATH')) # replace PATH with your folder path
 
 ## 4. Where users can get help with the project
-There is 
-For the documentation of the functions 
+There are different levels of documentation and support:
+1. For modellers: You may download a PDF documentation (docs_worksflows.pdf), which describes the workflows step-by-step using a test dataset. The test data set can be obtained from the corresponding authors by writing a email to johannes.mitterer@tum.de
+2. For modellers with computational skills: The functions are additionally documented within the example workflows and at the top of each function definition including inputs and outputs.
+3. For contributors, technicians and software engineers: Within the functions, the code is commented extensively to explain single steps during the workflow
 
 The project was developed by Johannes Mitterer at the Technical University of Munich (TUM), ![Chair for Hydrology and River Basin Management](https://www.bgu.tum.de/en/hydrologie/home/) in 2021. Contact: johannes.mitterer@tum.de
 
