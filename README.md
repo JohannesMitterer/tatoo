@@ -46,18 +46,21 @@ The tools need ESRI's Python package ArcPy in Python 3 version, which is include
 Besides the packages, there is no special installation necessary. As described in the _example workflows_, the user only has to add the path, where the package files (_tatoo_subcatchment.py_, _tatoo_raster.py_, and _tatoo_common.py_) are located. The command is:
 sys.path.append((r'PATH')) # replace PATH with your folder path
 
-## 4. Where users can get help with your project
-There are three possibilities to take part in this project:
-1. apply the functions for LARSIM (or for other models)
-2. raising issues about bugs (or missing functionalities) in GitHub 
-3. apply to get contributor and modify or add functionalities
-You are invited to join with any of the listed participation methods.
+## 4. Where users can get help with the project
+There is 
+For the documentation of the functions 
 
 The project was developed by Johannes Mitterer at the Technical University of Munich (TUM), ![Chair for Hydrology and River Basin Management](https://www.bgu.tum.de/en/hydrologie/home/) in 2021. Contact: johannes.mitterer@tum.de
 
 ## 5. Who maintains and contributes to the project
 The project is recently published. Contributors:
 * Johannes Mitterer (Technical University of Munich)
+
+There are three possibilities to take part in this project:
+1. apply the functions for LARSIM (or for other models)
+2. raising issues about bugs (or missing functionalities) in GitHub 
+3. apply to get contributor and modify or add functionalities
+You are invited to join with any of the listed participation methods.
 
 ## Credentials
 Input data provided for the show cases is from the following agencies:
