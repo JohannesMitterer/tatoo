@@ -44,5 +44,5 @@ According to the workflows, we recommend to set up two personal geodatabases (GD
 * impervious share polygon feature class with float values (optional)
 The functions generally summarize parameters in pandas.DataFrames and export these to ArcPy.FeatureClasses, ArcPy.Tables or ArcPy.Rasters if required. User can manually change these ONLY according to the outlines within the workflow files if they are used as inputs for other functions.
 
-## 3. Customizing and configuring
-see documentation material
+## 3. Documentation of customizing and configuring
+There is a documentation included (pdf), which is a step-by-step manual for a 8 km² test data set. As GitHub does not allow large file uploads, we ask users to contact the corresponding author to get the test data set. It consists of a 1x1 m² digital elevation model, flow network polylines, land use and soil parameters. Alltogether, users can build all necessary model files using this data, which was provided by Agencies of the Bavarian state (Germany). 
