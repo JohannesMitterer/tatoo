@@ -1,3 +1,27 @@
+LICENSES OF THE EXAMPLE DATA
+
+Digital Elevation Model (DEM):
+- Raw data: © Bayerische Vermessungsverwaltung
+- some minor corrections by Technical University of Munich (e.g., culverts)
+- License: ONLY for internal testing purposes in connection with the software TATOO
+LARSIM Land Use Classes: 
+- Underlying ATKIS data: © Bayerische Vermessungsverwaltung
+- processed by Technical University of Munich
+- License: ONLY for internal testing purposes in connection with the software TATOO
+Soil Data: 
+- Underlying ÜBK25 data: © Bayerisches Landesamt für Umwelt
+- processed by Technical University of Munich
+- License: CC BY 4.0
+Flow Network:
+- Digitalized from DEM by Technical University of Munich
+- License: CC BY 4.0
+
+Documentation of license CC BY 4.0: see https://creativecommons.org/licenses/by/4.0/
+
+======================================================================================================================================
+
+LICENSE OF THE CODE
+
 Creative Commons Attribution-NonCommercial 3.0 Unported
 
 <<beginOptional;name=ccOptionalIntro>> CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE. <<endOptional>>
