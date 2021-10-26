@@ -73,4 +73,4 @@ The study to develop and publish this packages have been supported by the follow
 * Ludwig-Maximilians-Universität Munich (LMU), Department for Geography, Prof. Dr. Ralf Ludwig
 * Bayerisches Landesamt für Umwelt (LfU, Bavarian Environmental Agency)
 * Bayerisches Staatsministerium für Umwelt und Verbraucherschutz (StMUV, Bavarian State Ministry of the Environment and Consumer Protection
-The snipped to convert a pandas.DataFrame to a numpy.StructuredArray for use in ArcPy.da.NumPyArrayToTable in the package _tatoo_common.py_ is from ![USGS developers](https://my.usgs.gov/confluence/display/cdi/pandas.DataFrame+to+ArcGIS+Table). Many thanks to them for this shortcut!
+The snipped to convert a pandas.DataFrame to a numpy.StructuredArray for use in ArcPy.da.NumPyArrayToTable in the package _tatoo_common.py_ is from ![USGS developers] (https://my.usgs.gov/confluence/display/cdi/pandas.DataFrame+to+ArcGIS+Table). Many thanks to them for this shortcut!
