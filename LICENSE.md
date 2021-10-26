@@ -4,14 +4,17 @@ Digital Elevation Model (DEM):
 - Raw data: © Bayerische Vermessungsverwaltung
 - some minor corrections by Technical University of Munich (e.g., culverts)
 - License: ONLY for internal testing purposes in connection with the software TATOO
+
 LARSIM Land Use Classes: 
 - Underlying ATKIS data: © Bayerische Vermessungsverwaltung
 - processed by Technical University of Munich
 - License: ONLY for internal testing purposes in connection with the software TATOO
+
 Soil Data: 
 - Underlying ÜBK25 data: © Bayerisches Landesamt für Umwelt
 - processed by Technical University of Munich
 - License: CC BY 4.0
+
 Flow Network:
 - Digitalized from DEM by Technical University of Munich
 - License: CC BY 4.0
