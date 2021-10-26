@@ -1,4 +1,4 @@
-**LICENSES OF THE EXAMPLE DATA
+# LICENSES OF THE EXAMPLE DATA
 
 Digital Elevation Model (DEM):
 - Raw data: © Bayerische Vermessungsverwaltung
@@ -23,7 +23,7 @@ Documentation of license CC BY 4.0: see https://creativecommons.org/licenses/by/
 
 ============================================================================================
 
-**LICENSE OF THE CODE
+# LICENSE OF THE CODE
 
 Creative Commons Attribution-NonCommercial 3.0 Unported
 
